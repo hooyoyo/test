@@ -1,0 +1,49 @@
+/**/
+
+html {
+}
+
+body {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (max-width: 767px) {
+}
+
+.color {
+    --white-0: #f0f0f0;
+    --white-1: #f4f4f4;
+    --white-2: #f8f8f8;
+    --white-3: #fcfcfc;
+    --white-7: #ecf0f6;
+    --white-8: #e8e8e8;
+    --gray-0: #999;
+    --gray-1: #9f9f9f;
+    --gray-3: #aeaeae;
+    --gray-5: #bdbdbd;
+    --gray-8: #c3c3c3;
+    --gray-9: #d0d0d0;
+    --black-0: #666;
+    --black-1: #393939;
+    --red-0: #d73925;
+    --red-1: #de4f39;
+    --red-2: #ec5d39;
+    --yellow-0: #faad39;
+    --yellow-1: #fdce51;
+    --green-0: #319978;
+    --green-1: #39aa86;
+    --green-2: #44b78b;
+    --green-3: #66cc99;
+    --cyan-0: #006666;
+    --cyan-1: #008080;
+    --cyan-2: #009999;
+    --cyan-3: #33cccc;
+    --blue-0: #003399;
+    --blue-1: #336699;
+    --blue-2: #3366cc;
+    --blue-3: #0099cc;
+    --blue-4: #0088ee;
+    --blue-5: #0028fd;
+}
