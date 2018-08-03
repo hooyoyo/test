@@ -9,3 +9,18 @@ body {
 .ex-bg-whale {
     background-color: #29354b;
 }
+
+.ex-nav-tabs-v {
+    border-right: 1px solid #dee2e6;
+    border-bottom: none;
+}
+
+.ex-nav-tabs-v .nav-link {
+    margin-right: -1px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: .25rem;
+}
+
+.ex-nav-tabs-v .nav-link.active {
+    border-color: #dee2e6 #fff #dee2e6 #dee2e6;
+}
