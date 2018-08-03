@@ -56,7 +56,7 @@
         </nav>
     </header>
 
-    <main class="container-fluid">
+    <main class="container">
         <div class="row ex-block">
             <div class="col-md-12">
                 <div class="carousel slide" data-ride="carousel" id="carousel-base">
@@ -107,7 +107,7 @@
             </div>
         </div>
         <div class="row ex-block">
-            <div class="col-md-3">
+            <div class="col-md-3 d-block d-md-none">
                 <dl>
                     <dt>
                         Description lists
@@ -121,18 +121,19 @@
                     <dd>
                         Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.
                     </dd>
-                    <dd>
-                        Donec id elit non mi porta gravida at eget metus.
-                    </dd>
-                    <dt>
-                        Malesuada porta
-                    </dt>
-                    <dd>
-                        Etiam porta sem malesuada magna mollis euismod.
-                    </dd>
                 </dl>
             </div>
+            <div class="col-md-3 d-none d-md-block">
+                <div class="nav flex-column nav-tabs ex-nav-tabs-v h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="tab" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
+                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="tab" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tab" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="tab" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                </div>
+            </div>
             <div class="col-md-9">
+                <div class="tab-content" id="v-pills-tabContent" style="min-height: 31.935rem">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
@@ -183,20 +184,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="row ex-block">
-            <div class="col-3">
-                <div class="nav flex-column nav-tabs ex-nav-tabs-v" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                    <a class="nav-link active" id="v-pills-home-tab" data-toggle="tab" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</a>
-                    <a class="nav-link" id="v-pills-profile-tab" data-toggle="tab" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-                    <a class="nav-link" id="v-pills-messages-tab" data-toggle="tab" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                    <a class="nav-link" id="v-pills-settings-tab" data-toggle="tab" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-                </div>
-            </div>
-            <div class="col-9">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">Home</div>
+                    </div>
                     <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">Profile</div>
                     <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Messages</div>
                     <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">Settings</div>
